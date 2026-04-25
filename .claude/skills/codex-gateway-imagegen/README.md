@@ -41,7 +41,7 @@ helper script 会读取本机 Codex 配置：
 
 随后脚本会向 `${base_url}/responses` 发起 streaming 请求，并在 payload 中声明：
 
-- `model`: 默认 `gpt-5.4`
+- `model`: 默认 `gpt-5.5`
 - `tools`: `image_generation`
 - `action`: `auto`、`generate` 或 `edit`
 - `size`: 默认 `1024x1024`
@@ -94,7 +94,7 @@ python scripts/generate_gateway_image.py \
 | `--image` | 可选。本地参考图路径，可重复传入。 |
 | `--image-url` | 可选。远程参考图 URL，可重复传入。 |
 | `--mask` | 可选。局部编辑 mask 图片路径。 |
-| `--model` | 可选。Responses model，默认 `gpt-5.4`。 |
+| `--model` | 可选。Responses model，默认 `gpt-5.5`。 |
 | `--timeout` | 可选。HTTP timeout 秒数，默认 `600`。 |
 
 ## 提示词建议

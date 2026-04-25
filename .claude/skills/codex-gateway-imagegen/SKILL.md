@@ -88,7 +88,7 @@ The script:
 - Reads `base_url` from `~/.codex/config.toml`
 - Reads `OPENAI_API_KEY` from `~/.codex/auth.json`
 - Calls `/responses`
-- Uses `model="gpt-5.4"` by default
+- Uses `model="gpt-5.5"` by default
 - Requests the `image_generation` tool with `action=auto|generate|edit`
 - Sends prompt text as `input_text`
 - Sends reference images as `input_image`
@@ -97,7 +97,7 @@ The script:
 
 Important:
 
-- The Responses `model` remains the main model such as `gpt-5.4`
+- The Responses `model` remains the main model such as `gpt-5.5`
 - Image generation and editing are performed through the `image_generation` tool
 - For editing, prefer `--action edit` and include at least one `--image`
 

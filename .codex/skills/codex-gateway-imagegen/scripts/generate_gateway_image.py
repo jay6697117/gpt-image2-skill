@@ -21,7 +21,7 @@ except ModuleNotFoundError:  # pragma: no cover
     import tomli as tomllib  # type: ignore
 
 
-DEFAULT_MODEL = "gpt-5.4"
+DEFAULT_MODEL = "gpt-5.5"
 DEFAULT_TIMEOUT = 600
 DEFAULT_SIZE = "1024x1024"
 DEFAULT_CODEX_BASE_URL = "https://chatgpt.com/backend-api/codex"

@@ -24,7 +24,7 @@ Override the model when the user asks for a specific one:
 ```bash
 scripts/generate_response_image.sh \
   --prompt "Generate a cinematic poster of a gray tabby cat hugging an otter" \
-  --model gpt-5.4
+  --model gpt-5.5
 ```
 
 Write to a specific file when the user wants a named output:
